@@ -1,8 +1,8 @@
-import { DateTimePipe } from './date-time.pipe';
+import { TimerPipe } from './timer.pipe';
 
-describe('DateTimePipe', () => {
+describe('TimerPipe', () => {
   it('create an instance', () => {
-    const pipe = new DateTimePipe();
+    const pipe = new TimerPipe();
     expect(pipe).toBeTruthy();
   });
 });
